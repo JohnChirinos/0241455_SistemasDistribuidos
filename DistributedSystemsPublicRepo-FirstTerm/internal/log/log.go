@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	api "github.com/Robinthatdoesnotsuck/DistributedSystemsPublicRepo/api/v1"
+	api "github.com/JohnChirinos/0241455_SistemasDistribuidos/DistributedSystemsPublicRepo-FirstTerm/api/v1"
 )
 
 type Log struct {

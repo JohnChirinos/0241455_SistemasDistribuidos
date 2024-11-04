@@ -5,7 +5,7 @@ import (
 	"os"
 	"path"
 
-	api "github.com/Robinthatdoesnotsuck/DistributedSystemsPublicRepo/api/v1"
+	api "github.com/JohnChirinos/0241455_SistemasDistribuidos/DistributedSystemsPublicRepo-FirstTerm/api/v1"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -117,12 +117,4 @@ func (s *segment) Close() error {
 		return err
 	}
 	return nil
-}
-
-func nearestMultiple(j, k uint64) uint64 {
-	if j >= 0 {
-		return (j / k) * k
-	}
-	return ((j - k + 1) / k) * k
-
 }

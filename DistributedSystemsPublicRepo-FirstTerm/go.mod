@@ -1,4 +1,4 @@
-module github.com/Robinthatdoesnotsuck/DistributedSystemsPublicRepo
+module github.com/JohnChirinos/0241455_SistemasDistribuidos/DistributedSystemsPublicRepo-FirstTerm
 
 go 1.22.6
 
