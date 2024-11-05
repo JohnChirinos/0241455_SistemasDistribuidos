@@ -27,5 +27,5 @@ func configFile(filename string) string {
 	}
 
 	// modify this
-	return filepath.Join(homeDir, "/Documentos/Computo/DistributedSystemsPublicRepo-FirstTerm/.SistemasDistribuidos-Proyecto/", filename)
+	return filepath.Join(homeDir, "/Documentos/Computo/DistributedSystemsPublicRepo-FirstTerm/cert", filename)
 }
